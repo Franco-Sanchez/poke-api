@@ -153,7 +153,7 @@ development:
     # background_indexing: false
 
 production:
-  clients:
+  sessions:
     default:
       uri: <%= ENV['MONGODB_URI'] %>
     options:
