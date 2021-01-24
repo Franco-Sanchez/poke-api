@@ -155,7 +155,7 @@ development:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGODB_URI'] %>
+      uri: mongodb+srv://diego:diego321@cluster0.rrqbh.mongodb.net/poke?retryWrites=true&w=majority
     options:
       skip_version_check: true
     safe: true
