@@ -23,7 +23,6 @@ Bundler.require(*Rails.groups)
 
 module PokeApi
   class Application < Rails::Application
-    Mongoid.load!("config/mongoid.yml")
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
